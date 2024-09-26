@@ -15,8 +15,7 @@ import ExportarInventario from "./ExportarInventario";
 import InventarioForm from "./InventarioForm";
 
 const Inventario = () => {
-  const baseUrl =
-    import.meta.env.VITE_API_BASE_URL || "http://localhost:4000/api/";
+  const baseUrl = "http://localhost:4000/api/";
 
   const columns = [
     { field: "nombre", headerName: "Nombre", width: 320 },
